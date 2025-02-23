@@ -172,3 +172,19 @@ cython_debug/
 
 
 .env
+
+# Ignorar entornos virtuales
+venv/
+env/
+
+# Ignorar archivos específicos de Selenium
+drivers/
+selenium_env/
+chromedriver.exe
+geckodriver.exe
+*.log
+
+# Ignorar configuraciones del sistema
+__pycache__/
+*.pyc
+.DS_Store
