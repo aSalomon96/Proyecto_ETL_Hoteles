@@ -172,7 +172,7 @@ cython_debug/
 
 
 .env
-
+.venv
 # Ignorar entornos virtuales
 venv/
 env/
